@@ -1,0 +1,85 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.header{
+    padding: 1rem;
+    background-color: #333;
+
+}
+.navegacion-principal {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+.navegacion-principal a {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+/* section */
+.flex {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.box-1{
+    order: 2;
+    background-color: #e6eaf0;
+}
+.noticias h2{
+    border-bottom: 1px solid blue;
+    font-size: 2.4rem;
+}
+
+.noticias li{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.otras-noticias h3{
+    font-size: 2.4rem;
+}
+.otras-noticias{
+    line-height: 2;
+    padding: 1rem;
+}
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.padding{
+    padding: 1rem;
+    line-height: 2;
+}
+
+.imagen-deportivo{
+    text-align: center;
+}
+.imagen-deportivo img{
+    border: 5px solid black;
+    margin-left: 2rem;
+}
+
+
+footer {
+    clear: both; /* Limpiar flotadores */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
